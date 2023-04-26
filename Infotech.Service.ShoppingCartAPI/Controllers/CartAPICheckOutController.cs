@@ -92,8 +92,8 @@ namespace Infotech.Service.ShoppingCartAPI.Controllers
            
             Options options = new Options();
            
-            options.ApiKey = "sandbox-8zkTEIzQ8rikWsvPkL76V8kAvo4DpYuz";
-            options.SecretKey = "sandbox-56FjiYYrjkAuSqENtt0k8b7Ei03s8X61";
+            options.ApiKey = "Your-apikey";
+            options.SecretKey = "Your-secretkey";
             options.BaseUrl = "https://sandbox-api.iyzipay.com";
 
             CreatePaymentRequest request = new CreatePaymentRequest();
